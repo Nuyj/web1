@@ -29,6 +29,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+h1{
+   font-size:3.00em;
+   color:#FFFFFF;
+   text-align:center;
+}
+
 body {
 	line-height: 1;
 	background-color: mediumaquamarine;
@@ -139,12 +145,9 @@ table {
     padding:  0;
   }
   
-  body{
-    background-color: skyblue;
-    margin:  48px 0 0 0;
-  }
+  
   header{
-    background-color: lightgreen;
+    background-color: darkgreen;
     position: fixed;
     left: 0;
     top:  0;
@@ -157,40 +160,15 @@ table {
     min-width:  500px;
     float:  left;
   }
-  #main1{
-    background-color: khaki;
-    width:  500px;
-    float:  left;
-  }
-  #main2{
-  background-color: collapse;
-  width:  500px;
-  float:  left;
-  }
+ 
   .box{
     background-color: aliceblue;
-    color: cadetblue;
+    color: darkgreen;
     width: 240px;
     height: 80px;
     margin: 5px;
     float:  left;
     overflow: auto;
   }
-  aside{
-    background-color: lightcoral;
-    width:  200px;
-    float:  right;
-    position: relative;
-    top:  20px;
-    right: 10px;
-  }
-  #gear_mark{
-  width:  24px;
-  position: absolute;
-  left: 50px;
-  top:  50px;
-  }
-  footer{
-    background-color: lightsteelblue;
-    clear: both;
-  }
+
+
