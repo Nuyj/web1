@@ -166,5 +166,11 @@ q:before, q:after {
     float:  center;
     overflow: auto;
   }
+p.transition a:hover{
+   
+   text-decoration:  none;
+   padding: 5px;
+   color:   black;
+}
 
 
